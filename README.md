@@ -8,13 +8,23 @@ app on a TV or something else.
 ```bash
 git clone https://github.com/dword64/Package-Remover.git
 cd /Package-Remover
-chmod 777 remove_packages.sh setup.sh
+chmod 777 remove_packages.sh setup.sh test.sh
 ./remove_packages.sh
 ```
-After the reboot, your PI is only aviable over SSH, so make sure to have SSH active. Then run over SSH. You can scp your files into youre PI
+
+After the reboot, your PI is only aviable over SSH, so make sure to have SSH active. Then run over SSH. You can scp your files into youre PI.
 ```bash
 ./setup.sh
 ```
+# Test #
+
+The Test.sh is just a script if you run into Problems, its showing whats missing or is installed.
+
+Usage
+```bash
+./test.sh
+```
+
 # SCP PART #
 Replace filename and PI with your File you want to transfer and the username for you pi. Replace hostname with the IP/Domain of your PI after the ":" you can set the location where to
 safe the Files on your pi "~" means the home folder.
