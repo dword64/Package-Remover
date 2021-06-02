@@ -3,7 +3,7 @@
 Package-Remover is a bash script that atuomatically removes packages, to create a PI without any GUI, cursor or anything. For example using the PI to run a Slideshow as a
 app on a TV or something else.
 
-## Usage & Installation##
+## Usage & Installation ##
 
 ```bash
 git clone https://github.com/dword64/Package-Remover.git
